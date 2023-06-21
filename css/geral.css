@@ -1,0 +1,48 @@
+/* Geral
+-----------------------*/
+
+container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+}
+
+.um{
+    gap: 9%;
+    white-space: nowrap;
+    height: 6vw;
+}
+
+/* Header da página
+-----------------------*/
+
+header div p{
+    background: linear-gradient(45deg, #613daa, #301687);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.4vw;
+}
+
+.criar_campanha{
+   background-color: #A57AF9;
+   border: 0;
+   font-size: 1.4vw;
+   color: #ffffff;    
+   font-family: 'Inter', sans-serif;
+   text-align: center;
+   display: block;
+   block-size: 3vw;
+   border-radius: 50px;
+   padding-left: 1vw;
+   padding-right: 1vw;
+   box-shadow: -4px 4.5px 4px rgba(0, 0, 0, 0.25), inset 0px -5px 4px rgba(0, 0, 0, 0.25);
+}
