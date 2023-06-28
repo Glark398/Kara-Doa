@@ -1,13 +1,19 @@
 /* Geral
 -----------------------*/
 
-container{
+body{
     display: flex;
     width: 100%;
     justify-content: center;
     margin: 0;
 }
-
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
 .horizontal{
     display: flex;
     justify-content: center;
@@ -16,20 +22,24 @@ container{
     font-family: 'Inter', sans-serif;
 }
 
-.um{
-    gap: 9%;
-    white-space: nowrap;
-    height: 6vw;
-}
-
 /* Header da página
 -----------------------*/
+.um{
+    gap: 8%;
+    white-space: nowrap;
+    height: 6vw;
+    width: 100%;
+}
 
 header div p{
     background: linear-gradient(45deg, #613daa, #301687);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.4vw;
+}
+
+header div img{
+    width: 7vw;
 }
 
 .criar_campanha{
@@ -45,4 +55,28 @@ header div p{
    padding-left: 1vw;
    padding-right: 1vw;
    box-shadow: -4px 4.5px 4px rgba(0, 0, 0, 0.25), inset 0px -5px 4px rgba(0, 0, 0, 0.25);
+}
+
+input{
+    width: 12vw;
+    height: 4vw;
+    border: 0;
+    font-size: 1.6vw;
+    font-family: 'Inter', sans-serif;
+    background-color: #A57AF9;
+    color: #ffffff;
+    box-shadow: -4px 4.5px 4px rgba(0, 0, 0, 0.25), inset 0px -5px 4px rgba(0, 0, 0, 0.25);
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+
+/* Corpo Homepage
+-----------------------*/
+
+.dois{
+    background-color: #D9D9D9;
+    height: 40vw;
+    width: 80vw;
 }
