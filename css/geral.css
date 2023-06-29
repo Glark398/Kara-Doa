@@ -159,6 +159,10 @@ input::placeholder{
     color: #ffffff;
 }
 
+.quatro img{
+    width: 50vw;
+}
+
 .cinco{
     gap: 9%;
     white-space: nowrap;
