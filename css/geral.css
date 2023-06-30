@@ -70,6 +70,7 @@ header div img{
     width: 4vw;
 }
 
+
 .criar_campanha{
    background-color: #A57AF9;
    border: 0;
@@ -85,7 +86,7 @@ header div img{
    box-shadow: -4px 4.5px 4px rgba(0, 0, 0, 0.25), inset 0px -5px 4px rgba(0, 0, 0, 0.25);
 }
 
-input{
+header input{
     width: 12vw;
     height: 3.5vw;
     border: 0;
@@ -96,7 +97,7 @@ input{
     box-shadow: -4px 4.5px 4px rgba(0, 0, 0, 0.25), inset 0px -5px 4px rgba(0, 0, 0, 0.25);
 }
 
-input::placeholder{
+header input::placeholder{
     color: #ffffff;
 }
 
