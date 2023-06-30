@@ -49,6 +49,7 @@ a:hover{
     text-decoration: underline;
     text-shadow: 0 0 15px #6c36ff;
 }
+
 /* Header da página
 -----------------------*/
 .cabecalho{
@@ -70,6 +71,12 @@ header div img{
     width: 4vw;
 }
 
+.pesquisa img{
+    position: absolute; 
+    width: 2vw;
+    right: 13%;
+    top: 3%;
+}
 
 .criar_campanha{
    background-color: #A57AF9;
