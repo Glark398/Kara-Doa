@@ -1,0 +1,129 @@
+/* Geral
+-----------------------*/
+body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'interregular';
+}
+
+@font-face{
+    font-family: 'interblack';
+    src: url(../fonts/Inter-Black.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: 'interregular';
+    src: url(../fonts/Inter-Regular.ttf) format("truetype");
+}
+
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vw;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.coluna{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-shadow: 0 0 15px #6c36ff;
+}
+
+/* Header da página
+-----------------------*/
+.cabecalho{
+    white-space: nowrap;
+    height: 5.5vw;
+    width: 100vw;
+    background-color: #d8d8d8;
+    font-family: 'interblack';
+}
+
+header div p{
+    background: linear-gradient(45deg, #613daa, #301687);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5vw;
+}
+
+header div img{
+    width: 4vw;
+}
+
+.pesquisa img{
+    position: absolute; 
+    width: 2vw;
+    right: 13%;
+    top: 3%;
+}
+
+.criar_campanha{
+   background-color: #A57AF9;
+   border: 0;
+   font-size: 1.4vw;
+   color: #ffffff;    
+   font-family: 'interblack';
+   text-align: center;
+   display: block;
+   block-size: 3vw;
+   border-radius: 50px;
+   padding-left: 1vw;
+   padding-right: 1vw;
+   box-shadow: -4px 4.5px 4px rgba(0, 0, 0, 0.25), inset 0px -5px 4px rgba(0, 0, 0, 0.25);
+}
+
+header input{
+    width: 12vw;
+    height: 3.5vw;
+    border: 0;
+    font-size: 1.6vw;
+    font-family: 'interblack';
+    background-color: #A57AF9;
+    color: #ffffff;
+    box-shadow: -4px 4.5px 4px rgba(0, 0, 0, 0.25), inset 0px -5px 4px rgba(0, 0, 0, 0.25);
+}
+
+header input::placeholder{
+    color: #ffffff;
+}
+
+/* Rodapé
+-----------------------*/
+
+footer{
+    background-color: #4A4A4A;
+    height: 10vw;
+    width: 100vw;
+    color: #ffffff;
+}
+
+footer img{
+    width: 55vw;
+}
+
+.espaco{
+    gap: 11%;
+    white-space: nowrap;
+    font-size: 1vw;
+}
