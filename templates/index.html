@@ -1,0 +1,54 @@
+{% extends '_base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+
+    <container class="Home">
+       
+        {% block header%}
+        {% endblock %}
+
+        <div class="coluna um">
+            <br><br>
+
+            <div class="horizontal dois">
+                
+                <div class="card coluna">
+                    <div class="horizontal titulo_card">
+                        <p>PRÉDIO ESCOLAR</p>
+                    </div>
+                    <br>
+                    <div>
+                        <img src="img/Prédioescolar.webp">
+                    </div>
+                    <br>
+                    <div class="horizontal espaco">
+                        <div class="porcentagem"></div>
+                        <a href="PRÉDIO ESCOLAR.html">
+                            <button type="button" class="saiba_mais">Saiba mais</button>
+                        </a>   
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+
+            <div class="horizontal dois">
+            </div>
+
+            <div class="horizontal dois">
+            </div>
+
+            <br><br>
+        </div>
+
+        {% block footer %}
+        {% endblock %}
+
+    </container>
+</html>
