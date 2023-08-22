@@ -6,4 +6,10 @@ from django.http import HttpResponse
 def index(request):
     return render(request, 'app/index.html')
 
+def equipe(request):
+    return render(request, 'app/equipe.html')
+
+def sobre(request):
+    return render(request, 'app/sobre.html')
+
 
